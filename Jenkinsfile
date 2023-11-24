@@ -1,21 +1,12 @@
 pipeline{
     agent any
     stages{
-        stage('clean')
-        {
-            steps
-            {
-                sh 'mvn clean'
-            }
-        }
         stage('build')
         {
             steps
             {
-                sh 'mvn package'
-            }
-            
-
+                sh 'mvn clean install'
+            }    
         }
         stage("Deploy into tomcat")
         {
