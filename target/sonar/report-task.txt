@@ -1,0 +1,6 @@
+projectKey=akhiltech:akhilwebapp
+serverUrl=http://18.60.254.224:9000
+serverVersion=7.8.0.26217
+dashboardUrl=http://18.60.254.224:9000/dashboard?id=akhiltech%3Aakhilwebapp
+ceTaskId=AYvxNOI1lEEiOgHHajVl
+ceTaskUrl=http://18.60.254.224:9000/api/ce/task?id=AYvxNOI1lEEiOgHHajVl
